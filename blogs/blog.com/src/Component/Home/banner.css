@@ -1,0 +1,81 @@
+body{margin:0}
+ .container{width:1170px;margin:auto;}
+
+.clearfix{clear:both}
+
+/* end main ruelz */
+
+/* start Header */
+
+.header .slider {
+    background-image:url(http://b.top4top.net/p_348mc3b11.png);
+    background-size:cover; /*css3*/
+    height:600px;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+
+
+.header .slider .intro {padding-top:200px;text-align:center;color:#FFF}
+
+.header .slider .intro h2{
+    margin:0 auto;
+    font-size:50px;
+    width:600px;
+    border-top:4px solid #FFF;
+    border-bottom:4px solid #FFF;
+    padding:5px 0;
+    color:#FFF
+}
+
+.header .slider .intro button{
+    background:none;
+    margin-top:30px;
+    font-size:20px;
+    padding:10px 30px;
+    border:2px solid #FFF;
+    font-weight:bold;
+    color:#FFF
+}
+
+.header .navbar {
+      background-color:#172a5d;
+      color:#FFF;
+      overflow:hidden;  
+}
+
+.header .navbar h2 {color:#FFF}
+
+.header .navbar h2 span {color:#62CC7E}
+
+.header .navbar ul{
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    float:right
+}
+.header .navbar ul li {float:left;padding:10px}
+
+.header .navbar ul li a {
+    color:#FFF;
+    text-decoration:none
+}
+
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover{color:#30B576}
+/* End Header */
+
+/* Start Features */
+.features {
+    overflow:hidden;
+    padding-top:40px;
+    padding-bottom:50px;
+}
+.features .feat {width:33.33333%;height:150px;}
+
+.features .feat h2 {text-transform:capitalize;}
+
+.features .feat p {text-transform:capitalize;}
+
+/* End Features */
